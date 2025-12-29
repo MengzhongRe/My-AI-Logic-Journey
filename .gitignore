@@ -1,0 +1,33 @@
+# --- 1. 忽略模型文件夹 ---
+# 忽略整个 models 文件夹
+models/
+# 忽略 output 文件夹 (通常 Trainer 会自动生成这个)
+output/
+wandb/
+
+# --- 2. 忽略常见的模型权重文件 (防止不小心保存在根目录) ---
+*.bin
+*.pth
+*.pt
+*.safetensors
+*.ckpt
+*.h5
+*.onnx
+
+# --- 3. 忽略 Python 编译文件和缓存 ---
+__pycache__/
+*.py[cod]
+*$py.class
+
+# --- 4. 忽略 Jupyter Notebook 的检查点 ---
+.ipynb_checkpoints/
+
+# --- 5. 忽略环境配置和密钥 ---
+.env
+.venv
+env/
+venv/
+
+# --- 6. 忽略 IDE 配置文件 ---
+.vscode/
+.idea/
