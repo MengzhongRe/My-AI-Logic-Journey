@@ -3,7 +3,7 @@
 ```python
 from huggingface_hub import HfApi,create_repo,ModelCard,ModelCardData
 
-#
+#变量配置
 USER = 'YiMeng-SYSU'
 REPO = 'vit-base-patch16-224-in21k-finetuned-cifar100'
 REPO_ID = f'{USER}/{REPO}'
@@ -37,8 +37,6 @@ api.upload_folder(
 )
 ```
 ---
-
-
 编写高质量的 **Model Card (模型卡片)** 是让你的模型从“个人练手项目”变成“开源社区资产”的关键一步。
 
 一个优秀的 Model Card 需要满足两点：
