@@ -31,3 +31,4 @@ venv/
 # --- 6. 忽略 IDE 配置文件 ---
 .vscode/
 .idea/
+data/
